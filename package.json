@@ -6,6 +6,11 @@
   "scripts": {
     "start": "webpack-dev-server --config webpack.config.js --progress --colors --hot --inline"
   },
+  "license": "MIT",
+  "repository" :
+      { "type" : "git",
+        "url" : "https://github.com/Otouto/FourInRow.git"
+  },
   "keywords": [
     "ES6",
     "Babel 6",
