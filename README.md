@@ -1,3 +1,3 @@
 # 4 in a row
 
-Play
+[Demo](http://otouto.github.io/4inrow/)
