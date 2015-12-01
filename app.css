@@ -1,0 +1,120 @@
+.fr-root {
+    width: 450px;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 500px;
+    position: absolute;
+    border-radius: 3px;
+    border: 1px solid #C6C6C6;
+    box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.25);
+}
+
+.fr-reset {
+    display: block;
+    height: 50px;
+    width: 150px;
+    background-color: #0091CD;
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    line-height: 50px;
+    text-align: center;
+    margin: 30px auto 0;
+    transition: background-color 0.1s;
+}
+
+.fr-reset:hover {
+    background-color: #037DAF;
+}
+
+.fr-caption {
+    text-align: center;
+    position: relative;
+}
+
+.fr-caption:before {
+    content: '';
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    top: 4px;
+    left: calc(50% - 75px);
+    display: inline-block;
+    position: absolute;
+}
+
+.fr-caption__first:before {
+    background-color: #760C81;
+}
+
+.fr-caption__second:before {
+    background-color: #F17F00;
+}
+
+.fr-field {
+    margin: 20px auto;
+    width: 365px;
+    padding: 0;
+    list-style: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.fr-field__item {
+    background: white;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    margin: 5px;
+    border-radius: 50%;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+
+.fr-field__item:hover {
+    background-color: #D0D0D0;
+}
+
+.fr-field__item_first, .fr-field__item_first:hover {
+    background-color: #760C81;
+    pointer-events: none;
+}
+
+.fr-field__item_second, .fr-field__item_second:hover {
+    background-color: #F17F00;
+    pointer-events: none;
+}
+
+.fr-game-end {
+    font-size: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.9);
+    text-align: center;
+    padding: 150px 0px;
+    box-sizing: border-box;
+    display: none;
+}
+
+.fr-game-end__show {
+    display: block;
+}
+
+.fr-game-end__play-again {
+    color: #F17F00;
+    text-decoration: none;
+}
+
+.fr-game-end__play-again:hover {
+    color: #760C81;
+}
